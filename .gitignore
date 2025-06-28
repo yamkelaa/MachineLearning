@@ -1,0 +1,28 @@
+# Ignore Jupyter notebook checkpoints in all subfolders
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments (if created inside project)
+env/
+venv/
+.venv/
+
+# Ignore Jupyter runtime and config
+.jupyter/
+.ipython/
+
+# Ignore notebook metadata (optional)
+*.nbconvert.ipynb
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code and other editor settings
+.vscode/
+*.code-workspace
